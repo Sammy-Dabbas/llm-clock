@@ -1,0 +1,22 @@
+{
+  "name": "llm-clock",
+  "version": "0.1.0",
+  "description": "Time awareness for AI coding tools",
+  "type": "module",
+  "bin": {
+    "llm-clock": "./bin/setup.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "keywords": ["llm", "ai", "time", "claude", "cursor", "codex"],
+  "author": "Sammy-Dabbas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sammy-Dabbas/llm-clock"
+  }
+}
